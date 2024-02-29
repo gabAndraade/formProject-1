@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+.body{
+    margin: 0;
+}
+
+        
+#containerlogin1{
+    background-color: white;
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 24px;
+    height: 400px;
+    width: 350px;
+    display: flex;
+    padding: 25px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+
+}
+#login{
+    text-align: center;
+    border-radius: 20px;
+    width: 250px;
+    height: 35px;
+    border: 2px solid gray;
+    margin-top: 50px;
+    font-size: medium;
+}
+#senha{
+    text-align: center;
+    width: 250px;
+    border: 2px solid gray;
+    height: 35px;
+    align-items: center;
+    border-radius: 20px;
+    justify-content: center;
+    margin-top: 8px;
+    font-size: medium;
+}
+#botao{
+    background-color:aquamarine;
+    border: none;
+    padding: 15px;
+    font-size: medium;
+    border-radius: 20px;
+    width: 200px;
+    margin: 30px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px rgba(104, 104, 104, 0.3);
+}
+.msglogin{
+    color: rgb(61, 61, 61);
+
+    
+
+}
+.registrar{
+    font-size: small;
+}
